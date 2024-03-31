@@ -1,0 +1,108 @@
+.register {
+  padding: 0px 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  background-color: aliceblue;
+
+  &__ellipse{
+    position: absolute;
+    top: -80px;
+    left: 0px;
+}
+&__ellipse2{
+    position: absolute;
+    top: -20px;
+    left: -65px;
+}
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+
+    & h1 {
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 33px;
+    }
+    & h2 {
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 23px;
+    }
+  }
+  &__input {
+    gap: 10px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & label {
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 23px;
+      text-align: left;
+    }
+    & div {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    & input {
+      width: 100%;
+      border-radius: 20px;
+      background: rgb(255, 255, 255);
+      outline: none;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 23px;
+      text-align: left;
+      padding: 10px 20px;
+      border: none;
+
+      &::placeholder {
+        color: rgba(0, 0, 0, 0.5);
+        font-weight: 600;
+      }
+    }
+  }
+  &__bottom {
+    gap: 10px;
+    padding: 0px 30px;
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & button {
+      width: 100%;
+      padding: 10px 0;
+      border: none;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 5px;
+      background: rgb(98, 210, 195);
+    }
+    & p {
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 23px;
+    }
+    & span {
+      color: rgb(98, 210, 195);
+    }
+  }
+}

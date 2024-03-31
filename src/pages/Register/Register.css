@@ -1,0 +1,107 @@
+.register {
+  padding: 0px 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  background-color: aliceblue;
+}
+.register__ellipse {
+  position: absolute;
+  top: -80px;
+  left: 0px;
+}
+.register__ellipse2 {
+  position: absolute;
+  top: -20px;
+  left: -65px;
+}
+.register__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 8px;
+}
+.register__title h1 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 33px;
+}
+.register__title h2 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+}
+.register__input {
+  gap: 10px;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register__input label {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: left;
+}
+.register__input div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.register__input input {
+  width: 100%;
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  outline: none;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: left;
+  padding: 10px 20px;
+  border: none;
+}
+.register__input input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
+.register__input input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
+.register__bottom {
+  gap: 10px;
+  padding: 0px 30px;
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.register__bottom button {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  background: rgb(98, 210, 195);
+}
+.register__bottom p {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+}
+.register__bottom span {
+  color: rgb(98, 210, 195);
+}/*# sourceMappingURL=Register.css.map */
